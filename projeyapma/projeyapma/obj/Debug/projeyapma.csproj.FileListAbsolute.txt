@@ -1,0 +1,23 @@
+f:\onedrive\belgeler\visual studio 2015\Projects\projeyapma\projeyapma\bin\Debug\projeyapma.exe.config
+f:\onedrive\belgeler\visual studio 2015\Projects\projeyapma\projeyapma\obj\Debug\projeyapma.csprojResolveAssemblyReference.cache
+f:\onedrive\belgeler\visual studio 2015\Projects\projeyapma\projeyapma\obj\Debug\projeyapma.girisekran.resources
+f:\onedrive\belgeler\visual studio 2015\Projects\projeyapma\projeyapma\obj\Debug\projeyapma.Properties.Resources.resources
+f:\onedrive\belgeler\visual studio 2015\Projects\projeyapma\projeyapma\obj\Debug\projeyapma.csproj.GenerateResource.Cache
+f:\onedrive\belgeler\visual studio 2015\Projects\projeyapma\projeyapma\bin\Debug\projeyapma.exe
+f:\onedrive\belgeler\visual studio 2015\Projects\projeyapma\projeyapma\bin\Debug\projeyapma.pdb
+f:\onedrive\belgeler\visual studio 2015\Projects\projeyapma\projeyapma\obj\Debug\projeyapma.exe
+f:\onedrive\belgeler\visual studio 2015\Projects\projeyapma\projeyapma\obj\Debug\projeyapma.pdb
+f:\onedrive\belgeler\visual studio 2015\Projects\projeyapma\projeyapma\obj\Debug\projeyapma.kaydol.resources
+f:\onedrive\belgeler\visual studio 2015\Projects\projeyapma\projeyapma\obj\Debug\projeyapma.anasayfa.resources
+f:\onedrive\belgeler\visual studio 2015\Projects\projeyapma\projeyapma\obj\Debug\projeyapma.uyeekle.resources
+f:\onedrive\belgeler\visual studio 2015\Projects\projeyapma\projeyapma\obj\Debug\projeyapma.uyeduzenle.resources
+f:\onedrive\belgeler\visual studio 2015\Projects\projeyapma\projeyapma\obj\Debug\projeyapma.uyeliste.resources
+f:\onedrive\belgeler\visual studio 2015\Projects\projeyapma\projeyapma\obj\Debug\projeyapma.bookduzenle.resources
+f:\onedrive\belgeler\visual studio 2015\Projects\projeyapma\projeyapma\obj\Debug\projeyapma.kitapekle.resources
+f:\onedrive\belgeler\visual studio 2015\Projects\projeyapma\projeyapma\obj\Debug\projeyapma.booklist.resources
+f:\onedrive\belgeler\visual studio 2015\Projects\projeyapma\projeyapma\obj\Debug\projeyapma.emanetlerıshowme.resources
+f:\onedrive\belgeler\visual studio 2015\Projects\projeyapma\projeyapma\obj\Debug\projeyapma.givebook.resources
+f:\onedrive\belgeler\visual studio 2015\Projects\projeyapma\projeyapma\obj\Debug\projeyapma.takebookss.resources
+F:\OneDrive\Masaüstü\projeyapma\projeyapma\bin\Debug\projeyapma.exe.config
+F:\OneDrive\Masaüstü\projeyapma\projeyapma\obj\Debug\projeyapma.exe
+F:\OneDrive\Masaüstü\projeyapma\projeyapma\obj\Debug\projeyapma.pdb

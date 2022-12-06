@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7300C43E-F95C-4DA9-A1EC-F3609817776B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>projeyapma</RootNamespace>
+    <AssemblyName>projeyapma</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="anasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="anasayfa.Designer.cs">
+      <DependentUpon>anasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bookduzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bookduzenle.Designer.cs">
+      <DependentUpon>bookduzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="booklist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="booklist.Designer.cs">
+      <DependentUpon>booklist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="emanetlerıshowme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="emanetlerıshowme.Designer.cs">
+      <DependentUpon>emanetlerıshowme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="girisekran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="girisekran.Designer.cs">
+      <DependentUpon>girisekran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="givebook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="givebook.Designer.cs">
+      <DependentUpon>givebook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kaydol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kaydol.Designer.cs">
+      <DependentUpon>kaydol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kitapekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kitapekle.Designer.cs">
+      <DependentUpon>kitapekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="takebookss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="takebookss.Designer.cs">
+      <DependentUpon>takebookss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uyeduzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uyeduzenle.Designer.cs">
+      <DependentUpon>uyeduzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uyeekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uyeekle.Designer.cs">
+      <DependentUpon>uyeekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uyeliste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uyeliste.Designer.cs">
+      <DependentUpon>uyeliste.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="anasayfa.resx">
+      <DependentUpon>anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bookduzenle.resx">
+      <DependentUpon>bookduzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="booklist.resx">
+      <DependentUpon>booklist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="emanetlerıshowme.resx">
+      <DependentUpon>emanetlerıshowme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="girisekran.resx">
+      <DependentUpon>girisekran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="givebook.resx">
+      <DependentUpon>givebook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kaydol.resx">
+      <DependentUpon>kaydol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kitapekle.resx">
+      <DependentUpon>kitapekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="takebookss.resx">
+      <DependentUpon>takebookss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uyeduzenle.resx">
+      <DependentUpon>uyeduzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uyeekle.resx">
+      <DependentUpon>uyeekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uyeliste.resx">
+      <DependentUpon>uyeliste.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\to-do-list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book-with-add-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book-with-add-button1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book-with-a-pencil-sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\presentation-card-on-hand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\give-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d472c3ef23f6a0fe4a75ec3fb4aba2e4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumb-1920-375332.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumb-1920-180042.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
